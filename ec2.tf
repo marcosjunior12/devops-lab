@@ -1,6 +1,6 @@
 resource "aws_security_group" "my-sg" {
   name        = var.sg_name
-  description = "Grupo de segurança permitindo conexões HTTP e HTTPS"
+  description = "Grupo de seguranca permitindo conexoes HTTP e HTTPS"
 
   ingress {
     from_port   = 80
